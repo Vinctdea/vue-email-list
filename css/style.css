@@ -6,10 +6,13 @@
 }
 
 /* ************************REGOLE MAIN******************* */
-main{
+#app{
     width: 50%;
     margin: 50px auto;
     text-align: center;
+}
 
+ul{
+    font-size: 40px;
 }
 
