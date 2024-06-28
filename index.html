@@ -17,8 +17,9 @@
 <body>
     <main>
         <div id="app">
+            <h1>{{title}}</h1>
             <ul>
-                <li v-if="mail.length === 10" v-for="(item,index) in mail"  >{{item}} </li>
+                <li v-if="mail.length === 10" v-for="(item,index) in mail">{{item}}</li>
             </ul>
         </div>
 

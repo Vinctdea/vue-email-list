@@ -5,6 +5,7 @@
     data() {
       return {
         mail:[],
+        title: "mail list"
        
       }
     },
@@ -14,6 +15,7 @@
             .then((risposta) => {
                 const result = risposta.data.response;
                 this.mail.push(result);
+                console.log(risposta);
 
             }) 
             
